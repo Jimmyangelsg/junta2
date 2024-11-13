@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFF4B7; /* Color de fondo pastel */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    transition: background-color 0.3s ease;
+}
+
+header, footer {
+    width: 100%;
+    background-color: #000B58; /* Color retro vibrante */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    transition: background-color 0.3s ease;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 20px 0;
+    transition: background-color 0.3s ease;
+}
+
+h1, h2 {
+    text-align: center;
+    transition: color 0.3s ease;
+}
+
+input, button, select {
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Asegura que el padding y el border se incluyan en el ancho total */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button {
+    background-color: #003161; /* Color retro vibrante */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #006A67; /* Color retro vibrante al pasar el ratón */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    transition: background-color 0.3s ease;
+}
+
+#result {
+    margin-top: 20px;
+    text-align: center;
+    transition: color 0.3s ease;
+}
+
+.quantico-regular {
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.quantico-bold {
+    font-family: "Quantico", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.quantico-regular-italic {
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.quantico-bold-italic {
+    font-family: "Quantico", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.text-me-one-regular {
+    font-family: "Text Me One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-icon {
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
